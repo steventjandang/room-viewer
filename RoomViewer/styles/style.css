@@ -1,0 +1,55 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#canvas-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#canvas {
+  border: solid 0.5px dimgray;
+  border-radius: 20px 20px;
+  padding: 10px;
+}
+
+#btn_theme {
+  padding: 15px 30px;
+  background-color: #FFFFFF;
+  border: solid 0.5px dimgray;
+  border-radius: 5px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+#fp, #bp, #velocity {
+  background-color: #FFFFFF;
+  color: #000000;
+  width: 100px;
+  padding: 10px 20px;
+  margin: 10px 5px;
+  border: solid 0.5px dimgray;
+  border-radius: 4px;
+  text-align: center;
+}
+
+#control {
+  margin: auto;
+}
+
+#left {
+  text-align: center;
+  font-weight: bold;
+}
+
+#right {
+  text-align: left;
+  padding: 10px 30px 0 20px;
+}
